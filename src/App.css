@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.sub-page {
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: blue;
+    height: 85%;
+}
