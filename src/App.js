@@ -8,7 +8,7 @@ function App() {
             <div className="sub-page">
                 &nbsp;<h1 className="main-title">AR Airport</h1>
                 <h4 className="sub-title">Your Personal Augmented Reality GPS</h4>
-                <img src={require("./iphonex.png").default}></img>
+                <img className="iphone" src={require("./iphonex.png").default}></img>
             </div>
         </div>
     );
