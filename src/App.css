@@ -7,12 +7,17 @@
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 60px;
+    margin-bottom: 40px;
     background-color: steelblue;
-    height: 700px;
+    height: 90vh;
 }
 
 .main-title {
     color: black;
     margin-top: 20%;
+    margin-left: 20%;
+}
+
+.sub-title {
     margin-left: 20%;
 }
