@@ -1,17 +1,26 @@
-import React from 'react';
-import {  } from '@material-ui/core'
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import {} from "@material-ui/core";
+import "./App.css";
+import BackgroundImg from "./Assets/DetroitAirportBackground2.svg";
 
 function App() {
     return (
-        <div className="App">
-            <div className="sub-page">
-                &nbsp;<h1 className="main-title">AR Airport</h1>
-                <h4 className="sub-title">Your Personal Augmented Reality GPS</h4>
-                <img className="iphone" src={require("./iphonex.png").default}></img>
-            </div>
-        </div>
+        <AppCSS>
+            <Top></Top>
+        </AppCSS>
     );
 }
 
 export default App;
+
+const AppCSS = styled.div``;
+
+const Top = styled.div`
+    background-image: url(${BackgroundImg});
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+`;
