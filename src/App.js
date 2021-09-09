@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import {} from "@material-ui/core";
 import "./App.css";
-import BackgroundImg from "./Assets/DetroitAirportBackground2.svg";
+import BackgroundImg from "./Assets/DetroitBackground.jpg";
 
 function App() {
     return (
@@ -19,7 +19,7 @@ const AppCSS = styled.div``;
 const Top = styled.div`
     background-image: url(${BackgroundImg});
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right bottom;
     background-size: cover;
     height: 100vh;
     width: 100%;
