@@ -19,7 +19,6 @@ function App() {
                     <FeetCSS src={Feet} />
                     <FeetCSS src={Feet} />
                     <FeetCSS src={Feet} />
-                    <FeetCSS src={Feet} />
                 </Flex>
             </Top>
             <Middle>
